@@ -1,0 +1,11 @@
+package lokendrap;
+
+public class StaticParent 
+{
+	public static void show()
+	{
+		System.out.println("parent class static method");
+	}
+	
+
+}

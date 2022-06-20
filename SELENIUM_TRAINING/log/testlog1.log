@@ -1,0 +1,42 @@
+2022-04-29 14:31:34,751 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:31:34,755 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:31:34,772 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:31:34,774 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:31:34,774 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:31:34,774 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:31:34,789 [main] INFO LOG4J_demo - logout is completed
+2022-04-29 14:52:08,029 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:52:08,034 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:52:08,044 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:52:08,045 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:52:08,045 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:52:08,045 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:52:08,051 [main] INFO LOG4J_demo - logout is completed
+2022-04-29 14:53:39,915 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:53:39,919 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:53:39,933 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:53:39,934 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:53:39,934 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:53:39,935 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:53:39,940 [main] INFO LOG4J_demo - logout is completed
+2022-04-29 14:54:18,551 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:54:18,555 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:54:18,563 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:54:18,564 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:54:18,564 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:54:18,564 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:54:18,569 [main] INFO LOG4J_demo - logout is completed
+2022-04-29 14:55:49,275 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:55:49,279 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:55:49,288 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:55:49,289 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:55:49,289 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:55:49,289 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:55:49,297 [main] INFO LOG4J_demo - logout is completed
+2022-04-29 14:56:16,026 [main] INFO LOG4J_demo - Setup method is started
+2022-04-29 14:56:16,030 [main] INFO LOG4J_demo - Setup method is in progress
+2022-04-29 14:56:16,038 [main] INFO LOG4J_demo - login is started
+2022-04-29 14:56:16,040 [main] INFO LOG4J_demo - login is in progress
+2022-04-29 14:56:16,040 [main] INFO LOG4J_demo - login is completed
+2022-04-29 14:56:16,040 [main] INFO LOG4J_demo - login is passed
+2022-04-29 14:56:16,045 [main] INFO LOG4J_demo - logout is completed

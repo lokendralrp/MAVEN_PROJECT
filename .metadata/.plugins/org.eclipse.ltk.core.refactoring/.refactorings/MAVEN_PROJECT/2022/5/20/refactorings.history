@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MAVEN_PROJECT/run.bat.txt&apos; to &apos;run.bat&apos;" description="Rename resource &apos;run.bat.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="run.bat.txt" name="run.bat" stamp="1652104302928" updateReferences="true"/>
+</session>

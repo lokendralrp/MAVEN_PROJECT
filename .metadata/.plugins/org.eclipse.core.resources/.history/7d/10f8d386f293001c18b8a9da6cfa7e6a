@@ -1,0 +1,17 @@
+package interfaceuses;
+
+public class Print extends Printable implements Drawable, Viewable
+{
+	
+	
+	public void m2()
+	{
+		m1();
+		System.out.println("this is Drawable interface");
+	}
+	
+	public void m3()
+	{
+		System.out.println("this is Viewable interface");
+	}
+}

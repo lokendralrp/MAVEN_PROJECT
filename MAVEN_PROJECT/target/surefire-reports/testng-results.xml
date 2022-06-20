@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MAVEN_PROJECT" duration-ms="98776" started-at="2022-05-13T07:34:13 IST" finished-at="2022-05-13T07:35:52 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest1" duration-ms="98776" started-at="2022-05-13T07:34:13 IST" finished-at="2022-05-13T07:35:52 IST">
+      <class name="com.MAVEN_PROJECT.testcases.TC_AddnewCustomerTest_003">
+        <test-method status="PASS" signature="driverSetting(java.lang.String)[pri:0, instance:com.MAVEN_PROJECT.testcases.TC_AddnewCustomerTest_003@38bc8ab5]" name="driverSetting" is-config="true" duration-ms="5964" started-at="2022-05-13T07:34:13 IST" finished-at="2022-05-13T07:34:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetting -->
+        <test-method status="PASS" signature="addNewCustomerTest()[pri:0, instance:com.MAVEN_PROJECT.testcases.TC_AddnewCustomerTest_003@38bc8ab5]" name="addNewCustomerTest" duration-ms="92001" started-at="2022-05-13T07:34:19 IST" finished-at="2022-05-13T07:35:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MAVEN_PROJECT.testcases.TC_AddnewCustomerTest_003@38bc8ab5]" name="tearDown" is-config="true" duration-ms="637" started-at="2022-05-13T07:35:51 IST" finished-at="2022-05-13T07:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MAVEN_PROJECT.testcases.TC_AddnewCustomerTest_003 -->
+    </test> <!-- LoginTest1 -->
+  </suite> <!-- MAVEN_PROJECT -->
+</testng-results>

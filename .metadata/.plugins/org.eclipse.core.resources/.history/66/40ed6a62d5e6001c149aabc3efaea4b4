@@ -1,0 +1,14 @@
+package interviewPreparation;
+
+//import interviewPreparation.ALL_in_One;
+
+public class ALL_IN_ONE_MAIN_CLASS extends ALL_in_One
+{
+	public static void main(String[] args) 
+	{
+		driverSettings();
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="crossbrowsertestsuite">
+
+	<test name="chrometest">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="day22.parameterization.CrossBrowserTest"/>
+		</classes>	
+	</test>
+
+
+	<test name="ietest">
+		<parameter name="browser" value="ie"/>
+		<classes>
+			<class name="day22.parameterization.CrossBrowserTest"/>
+		</classes>
+	</test>
+</suite>
+

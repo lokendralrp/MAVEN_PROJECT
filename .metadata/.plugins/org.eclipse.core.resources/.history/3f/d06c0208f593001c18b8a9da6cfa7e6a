@@ -1,0 +1,9 @@
+package interfaceuses;
+
+public interface Drawable
+{
+	void m2();
+	
+	void add();
+
+}

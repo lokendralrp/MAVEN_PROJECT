@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample Suite">
+
+	<test name="test case name one">
+	
+	<groups>
+			<run>
+				<include name="chatlist" />
+			</run>
+	</groups>
+		
+		<classes>
+			<class name="testng.basicsoftesting"/>
+		</classes>
+	</test>		
+</suite>

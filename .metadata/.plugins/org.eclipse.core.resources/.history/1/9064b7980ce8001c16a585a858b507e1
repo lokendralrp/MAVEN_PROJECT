@@ -1,0 +1,33 @@
+package lokendrap;
+
+public class StaticChild extends StaticParent
+{
+	public static void show()
+	{
+		System.out.println("child class static method");
+	}
+	
+	public void display()
+	{
+		System.out.println("child class non static method");
+	}
+
+	
+
+	public static void main(String[] args) 
+	{
+		StaticChild sc=new StaticChild();
+		show();
+		sc.display();
+		
+		StaticParent sp=new StaticParent();
+		sp.show();
+		sp.display();
+		
+		StaticParent stp=new StaticChild();
+		stp.show();
+		stp.display();
+		
+	}
+	
+}

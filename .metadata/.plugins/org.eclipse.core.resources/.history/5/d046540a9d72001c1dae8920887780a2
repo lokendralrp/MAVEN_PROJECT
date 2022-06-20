@@ -1,0 +1,26 @@
+package basics;
+
+public class Addition {
+
+	int a=10, b=20, sum;
+	
+	//calculate_addition
+	public void calculateAddition()
+	
+	{
+		sum=a+b;
+	}
+	public void displayAddition()
+	{
+		System.out.println("addition of a and b is"+sum);
+	}
+	public static void main(String args[])
+	{
+		Addition add= new Addition();
+		//add.displayAddition();
+		add.calculateAddition();
+		add.displayAddition();
+	}
+	}
+	
+

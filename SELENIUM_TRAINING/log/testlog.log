@@ -1,0 +1,42 @@
+2022-04-29 14:31:34,751 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:31:34,755 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:31:34,772 - LOG4J_demo -INFO - login is started
+2022-04-29 14:31:34,774 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:31:34,774 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:31:34,774 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:31:34,789 - LOG4J_demo -INFO - logout is completed
+2022-04-29 14:52:08,029 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:52:08,034 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:52:08,044 - LOG4J_demo -INFO - login is started
+2022-04-29 14:52:08,045 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:52:08,045 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:52:08,045 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:52:08,051 - LOG4J_demo -INFO - logout is completed
+2022-04-29 14:53:39,915 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:53:39,919 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:53:39,933 - LOG4J_demo -INFO - login is started
+2022-04-29 14:53:39,934 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:53:39,934 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:53:39,935 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:53:39,940 - LOG4J_demo -INFO - logout is completed
+2022-04-29 14:54:18,551 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:54:18,555 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:54:18,563 - LOG4J_demo -INFO - login is started
+2022-04-29 14:54:18,564 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:54:18,564 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:54:18,564 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:54:18,569 - LOG4J_demo -INFO - logout is completed
+2022-04-29 14:55:49,275 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:55:49,279 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:55:49,288 - LOG4J_demo -INFO - login is started
+2022-04-29 14:55:49,289 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:55:49,289 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:55:49,289 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:55:49,297 - LOG4J_demo -INFO - logout is completed
+2022-04-29 14:56:16,026 - LOG4J_demo -INFO - Setup method is started
+2022-04-29 14:56:16,030 - LOG4J_demo -INFO - Setup method is in progress
+2022-04-29 14:56:16,038 - LOG4J_demo -INFO - login is started
+2022-04-29 14:56:16,040 - LOG4J_demo -INFO - login is in progress
+2022-04-29 14:56:16,040 - LOG4J_demo -INFO - login is completed
+2022-04-29 14:56:16,040 - LOG4J_demo -INFO - login is passed
+2022-04-29 14:56:16,045 - LOG4J_demo -INFO - logout is completed

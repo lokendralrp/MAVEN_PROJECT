@@ -1,0 +1,14 @@
+package interfaceuses;
+
+public class Multilevel_inheritance 
+{
+	public static void main(String[] args) 
+	{
+		Print p=new Print();
+		//p.m1();
+		p.m2();
+		p.m3();
+		p.m4();
+	}
+
+}

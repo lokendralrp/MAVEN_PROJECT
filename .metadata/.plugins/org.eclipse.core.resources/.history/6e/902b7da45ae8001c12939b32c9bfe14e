@@ -1,0 +1,24 @@
+package lokendrap;
+
+public class Interview 
+{
+	public static void main(String[] args) 
+	{
+		String st="java, selenium, maven, git";
+		
+		String str[]=st.split(",");
+		
+		for(String s:str)
+		{
+			System.out.println(s);
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

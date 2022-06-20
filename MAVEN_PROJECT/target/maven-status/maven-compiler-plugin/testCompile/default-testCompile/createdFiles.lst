@@ -1,0 +1,9 @@
+com\MAVEN_PROJECT\pageobjects\AddnewCustomerPage.class
+com\MAVEN_PROJECT\utilities\XLUtils.class
+com\MAVEN_PROJECT\testcases\TC_LoginDDT_002.class
+com\MAVEN_PROJECT\testcases\BaseClass.class
+com\MAVEN_PROJECT\utilities\ReadConfig.class
+com\MAVEN_PROJECT\testcases\TC_LoginTest_001.class
+com\MAVEN_PROJECT\pageobjects\LoginPage.class
+com\MAVEN_PROJECT\utilities\Reporting.class
+com\MAVEN_PROJECT\testcases\TC_AddnewCustomerTest_003.class

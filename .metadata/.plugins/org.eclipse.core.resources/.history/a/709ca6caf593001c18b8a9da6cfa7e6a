@@ -1,0 +1,22 @@
+package interfaceuses;
+
+public class Printable 
+{
+	int a,b,c;
+	
+	public void m1()
+	{
+		System.out.println("this is class printable");
+	}
+
+	
+	public void m4()
+	{
+		System.out.println("method m4");
+	}
+	
+	public void add()
+	{
+		System.out.println(c=a+b);
+	}
+}

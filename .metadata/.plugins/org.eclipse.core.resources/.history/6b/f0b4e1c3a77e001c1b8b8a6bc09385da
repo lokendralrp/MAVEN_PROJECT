@@ -1,0 +1,133 @@
+package hw;
+
+public class Class25jan 
+{
+	double m, p, c, e, h,
+    max, subject, percentage, total, mark;
+	
+	int i=8;
+	
+	
+	public void prime_num()
+	{
+		int a=9; 
+				int b=0;
+		for(int i=2; i<=(a-1); i++)
+		{
+			if(a%i==0)
+			
+				b=b+1;
+			
+		}
+		if(b>0)
+		
+			System.out.println("it is not prime number");
+		
+		else
+		
+			System.out.println("it is prime number");
+		
+	}
+	
+	
+	
+	
+	
+	public void sign()
+	{
+		if (i>=0)
+			System.out.println("+ve NUMBER");
+		else
+			System.out.println("-ve NUMBER");
+    }
+	
+  
+	public void next()
+	{
+		int a=5, b=8, sum;
+		  
+		sum=a+b;
+		System.out.println("a+b= "+sum);
+	}
+	
+	
+	public void again()
+	{
+		int a=60, b=70, c=50, d=80, e=90, avg, total;
+	
+		total= a+b+c+d+e;
+		avg= total/5;
+		
+		System.out.println("avg= " +avg);
+	}
+	
+	
+	
+	public void marks()
+	{
+	m = 84; p = 74; c =81 ; h = 75;
+	e = 80; max = 100; subject = 5;
+	}
+	
+	public void result()
+	{
+		total = m+p+c+h+e;
+		mark = max*subject;
+		percentage = ((total/mark)*100);
+		System.out.println("RESULTS: ");
+		System.out.println("MATHS= "+m);
+		System.out.println("PHYSICS= "+p);
+		System.out.println("CHEMISTRY= "+c);
+		System.out.println("ENGLISH= "+e);
+		System.out.println("HINDI= "+h);
+		System.out.println("TOTAL= "+total);
+		System.out.println('\n');
+		
+		System.out.println("PERCENTAGE= " +percentage +"%");
+	}
+	
+	
+
+	public void fibonacci()		
+	{
+		System.out.println("FIBONACCI SERIES");
+		int a=0, b=1;
+		System.out.print(a +" " +b);
+		
+		int c;
+		for(int i=1; i<=10; i++)
+		{
+			c=a+b;
+			System.out.print(" " +c);
+			a=b;
+			b=c;	
+		}
+	}
+	
+	
+	public void swap()
+	{
+	int a=20, b=40, temp=a;
+	
+	a=b;
+	b=temp;
+	
+	System.out.println("value of a= " +a +" & value of b= " +b);
+	}
+	
+	public static void main(String[] args)
+	{
+		Class25jan z=new Class25jan();
+		z.prime_num();		System.out.println('\n');
+		z.sign();   System.out.println('\n');
+		z.next();	System.out.println('\n'); 
+		z.again();	System.out.println('\n');
+		z.marks();	System.out.println('\n');
+		z.result();	System.out.println('\n');
+		z.fibonacci();		System.out.println('\n');
+		z.swap();		System.out.println('\n');
+		
+	}
+
+
+}

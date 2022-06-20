@@ -1,0 +1,113 @@
+package hw;
+
+public class TEST7FEB 
+{
+	void assign5() 		//Q5
+	{
+		System.out.println("QUESTION 5");
+		int count=0; 
+		for (int r=1; r<=4; r++)
+		{
+			for(int c=1; c<=r; c++)
+			{   
+				System.out.print(++count +" ");	
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	void assign4()		
+	{
+		System.out.println("QUESTION 4");
+		int total=0;
+		for(int i=1; i<=10; i++)
+		{
+			if(i%2!=0)
+			{
+				total=total+i;
+				System.out.print(i +" ");
+				System.out.println(total);
+			}	
+		}System.out.println(" and their sum= " +total);
+	}
+
+
+	void assign1()
+	{
+		System.out.println("QUESTION 1");
+		
+		
+		System.out.println((((8+2345)/3)%5)*5);
+	}
+	
+	
+	void assign2()
+	{
+		System.out.println("QUESTION 2: WITH 3RD VARIABLE");
+		int a=6, b=8, c=a;
+		
+		a=b;
+		b=c;
+		System.out.println("a= " +a);
+		System.out.println("b= " +b);	
+	}
+	
+	void assign2a()
+	{
+		System.out.println("QUESTION 2: WITHOUT 3RD VARIABLE");
+		int a=6, b=8;
+		System.out.println(a);
+		System.out.println(b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("after swapping");
+		System.out.println("a= " +a);
+		System.out.println("b= " +b);	
+	}
+	
+	
+	void assign3()
+	{
+		char ch='a';
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+		{
+			System.out.println("Vowel"); 
+		}
+		else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+			System.out.println("Consonant");
+		else
+			System.out.println("ERROR");		
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		TEST7FEB tf=new TEST7FEB();
+		tf.assign5();     				System.out.println('\n');
+		
+		TEST7FEB tf1=new TEST7FEB();
+		tf1.assign4();					System.out.println('\n');
+		
+		TEST7FEB tf2=new TEST7FEB();
+		tf2.assign1();					System.out.println('\n');
+		
+		TEST7FEB tf3=new TEST7FEB();
+		tf3.assign2();					System.out.println('\n');
+		
+		TEST7FEB tf4=new TEST7FEB();
+		tf4.assign2a();					System.out.println('\n');
+		
+		TEST7FEB tf5=new TEST7FEB();
+		tf5.assign3();		
+		
+		
+		
+	}
+	
+}

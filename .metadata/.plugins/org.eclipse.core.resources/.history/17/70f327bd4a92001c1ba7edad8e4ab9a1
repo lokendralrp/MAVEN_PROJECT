@@ -1,0 +1,110 @@
+package lokendrap;
+
+
+/*
+ * TIGHT COUPLING: firstly class A has only methods(insta, fb, paypal) and
+ * 					class B has methods(insta, tele)
+ *If we create parameterized constructor A(int x, int y), then there will be error in child class B
+ */
+
+
+class A
+{
+	A(){}
+	
+	A(int x,int y)
+	{
+		
+	}
+	
+	void insta()
+	{
+		System.out.println("inside parent class insta method");
+	}
+	
+	void fb()
+	{
+		System.out.println("inside parent class fb method");
+	}
+	
+	void paypal()
+	{
+		System.out.println("inside parent class paypal method");
+	}
+	
+}
+
+class B extends A
+{
+	void insta()
+	{
+		System.out.println("inside child class insta method");
+	}
+	
+	void tele()
+	{
+		System.out.println("inside child class tele method");
+	}
+}
+
+/*
+ * LOOSE COUPLING:-
+ * 
+ * 
+ */
+
+interface C
+{
+	void paytm();
+}
+
+class D implements C
+{
+	//A(int x, int y)
+	{}
+	
+	public void paytm()
+	{
+		System.out.println("inside D class paytm method");
+	}
+}
+
+class E implements C
+{
+	public void paytm()
+	{
+		System.out.println("inside E class paytm method");
+	}
+}
+
+
+
+public class LOOSE_COUPLING 
+{
+	public static void main(String[] args) 
+	{
+		A obj=new A();
+		obj.insta();
+		obj.fb();						System.out.println('\n');
+
+		
+		B obj1 = new B();
+		obj1.insta();
+		obj1.tele();
+		obj1.fb();						System.out.println('\n');
+/*
+ * DYNAMIC BINDING---  If method is overridden then only child class method will call.
+ * 					if there is no overriding, we can call parent class method as well.
+ * 
+ * In this type of BINDing, we can call all parent class method but
+ * 		about child class METHODS- only those which are overridden or similar to parent class method.
+*/
+		A obj2 =new B();		
+		obj2.fb();		
+		obj2.paypal();
+		obj2.insta();							System.out.println('\n');
+	}	
+}
+
+
+

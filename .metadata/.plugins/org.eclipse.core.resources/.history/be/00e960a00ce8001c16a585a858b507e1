@@ -1,0 +1,37 @@
+package lokendrap;
+
+public class StaticChild extends StaticParent
+{
+	public static void show()
+	{
+		System.out.println("child class static method");
+	}
+	
+	public void display()
+	{
+		System.out.println("child class non static method");
+	}
+
+	public void child()
+	{
+		System.out.println("child method");
+	}
+
+	public static void main(String[] args) 
+	{
+		StaticChild sc=new StaticChild();		//call child class overridden methods
+		show();
+		sc.display();
+		sc.parent();						//call parent class method which is not overridden
+		
+		StaticParent sp=new StaticParent();		//call parent class methods
+		sp.show();
+		sp.display();
+		
+		StaticParent stp=new StaticChild();
+		stp.show();			//parent class static
+		stp.display();		//child class non static
+		
+	}
+	
+}

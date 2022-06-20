@@ -1,0 +1,7 @@
+package interfaceuses;
+
+public interface Viewable extends Drawable
+{
+	void m3();
+
+}

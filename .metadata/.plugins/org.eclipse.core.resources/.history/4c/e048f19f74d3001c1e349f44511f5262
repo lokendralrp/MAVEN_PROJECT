@@ -1,0 +1,379 @@
+package lokendrap;
+
+import java.util.Scanner;
+
+public class PRACTICE 
+{
+	int a=10,b=20;
+	Scanner sc;
+//1	
+	public void swap1()
+	{		
+		System.out.println("no. before swapping= " +a+"  "+b);
+		
+		int t=a;//t=10
+		a=b;//a=20
+		b=t;//b=10
+		System.out.println("no. after swap= " +a +"  "+b);
+	}
+	
+	public void swap2()
+	{
+		System.out.println("no. before swapping= " +a+"  "+b);
+		
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("no. after swap= " +a +"  "+b);	
+	}
+
+	public void swap3()
+	{
+		System.out.println("no. before swapping= " +a+"  "+b);
+		
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		System.out.println("no. after swap= " +a +"  "+b);	
+	}
+	
+	public void swap4()
+	{
+		System.out.println("no. before swapping= " +a+"  "+b);
+		
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		System.out.println("no. after swap= " +a +"  "+b);
+	}
+	
+	public void swap5()
+	{
+		System.out.println("no. before swapping= " +a+"  "+b);
+		
+		b=a+b-(a=b);
+		
+		System.out.println("no. after swap= " +a +"  "+b);
+	}
+
+//2	
+	public void reverse1()
+	{
+		/*sc=new Scanner(System.in);
+		
+		System.out.println("enter a no.");
+		int num=sc.nextInt();*/
+		int num=1234;
+		System.out.println("no.= " +num);
+		int rev=0;
+		while(num!=0)
+		{
+			rev=rev*10+num%10;
+			num=num/10;			
+		}
+		System.out.println("no. after reverse= " +rev);
+	}
+	
+	public void reverse2()
+	{
+		int num=1234;
+		System.out.println("no.= " +num);
+		
+		StringBuffer sb=new StringBuffer(String.valueOf(num));
+		StringBuffer rev=sb.reverse();
+		
+		System.out.println("no. after reverse= " +rev);
+	}
+	
+	public void reverse3()
+	{
+		int num=1234;
+		System.out.println("no.= " +num);
+		
+		StringBuilder sbl=new StringBuilder();
+		sbl.append(num);
+		StringBuilder rev=sbl.reverse();
+		
+		System.out.println("no. after reverse= " +rev);
+	}
+	
+//3	
+	void reverseString1()//using +(string concatination) operator
+	{
+		String digits="abcd";
+		System.out.println("string= " +digits);
+		
+		int len=digits.length();
+		String rev="";
+		
+		for(int i=len-1; i>=0; i--)
+		{
+			rev=rev+digits.charAt(i);
+		}
+		System.out.println("string after reverse= " +rev);		
+	}
+	
+	void reverseString2()//using character array
+	{
+		String digits="lokendra";
+		System.out.println("string= " +digits);
+		
+		char a[]= digits.toCharArray();
+		int len=a.length;
+		String rev="";
+		
+		for(int i=len-1; i>=0; i--)
+		{
+			rev=rev+a[i];
+		}
+		
+		System.out.println("string after reverse= " +rev);		
+	}
+	
+	void reverseString3()//using string buffer
+	{
+		String digits="manish";
+		System.out.println("string= " +digits);
+		
+		StringBuffer sb=new StringBuffer(digits);
+		StringBuffer rev=sb.reverse();
+		
+		System.out.println("string after reverse= " +rev);	
+	}
+	
+//4	
+	void palindrome()
+	{
+		int num=12121;
+		System.out.println("no.= " +num);
+		
+		int rev=0, temp=num;
+		while(temp!=0)
+		{
+			rev=rev*10+temp%10;
+			temp=temp/10;
+		}
+		
+		if(num==rev)
+		{
+			System.out.println("no. after reverse= " +rev);
+			System.out.println("palindrome no.");
+		}
+		else 
+		{
+			System.out.println("non palindrome no.");
+		}
+	}
+	
+//5	
+		void palindromestring()
+		{
+			String digits="naman";
+			System.out.println("string= " +digits);
+			
+			char a[]=digits.toCharArray();
+			int len=a.length;
+			String rev="";
+			
+			for(int i=len-1;i>=0;i--)
+			{
+				//rev=rev+a[i];
+				rev=rev+digits.charAt(i);
+			}
+			
+			if(digits.equals(rev))
+				System.out.println(rev +" is palindrome string");
+			else 
+				System.out.println(rev +" is not palindrome string");
+			
+		}
+	
+//6	
+	void countdigits()
+	{
+		int num=123456789;
+		System.out.println("no.= " +num);
+		int count=0;
+		
+		while(num>0)
+		{
+			num=num/10;
+			count++;			
+		}
+		System.out.println("no. of digits= " +count);
+	}
+	
+//7
+	//count no. of even & odd digits in a number
+	void count_even_odd()
+	{
+		int num=123456789;
+		System.out.println("no.= " +num);
+
+		int evencount=0, oddcount=0;
+		
+		while(num!=0)
+		{
+			int rem=num%10;
+			if(rem%2==0)
+				evencount++;
+			else 
+				oddcount++;
+			num=num/10;
+		}
+		System.out.println("no. of even digits= " +evencount);
+		System.out.println("no. of odd digits= " +oddcount);
+	}
+	
+	void find_even_odd()
+	{
+		int num=123456789;
+		System.out.println("no.= " +num);
+		
+		String output=(num%2==0)?"even no.":"odd no.";
+		System.out.println("this is " +output);
+	}
+	
+	
+//8	
+	//sum of digits
+	void sum()
+	{
+		int num=123456789;
+		System.out.println("no.= " +num);
+		
+		int rem=0, sum=0;
+		while(num>0)
+		{
+			rem=num%10;
+			sum=sum+rem;
+			num=num/10;
+		}
+		System.out.println("sum of digits= " +sum);
+	}
+	
+//9
+	void largest1()
+	{
+		int a=10,b=20,c=30;
+		
+		if(a>b&&a>c)
+			System.out.println("a is greater");
+		else if(b>a && b>c)
+			System.out.println("b is greater");
+		else
+			System.out.println("c is greater");
+	}
+
+	void largest2()
+	{
+		int a=10,b=30,c=20;
+		
+		int largest=a>b?a:b;
+		largest=c>largest?c:largest;
+		
+		System.out.println(largest);
+	}
+	
+//10
+	void fibonacci()
+	{
+		System.out.println("fibonacci series...");
+		int a=0,b=1,c;
+		System.out.print(a +" " +b +" ");
+	
+		for(int i=2;i<=10;i++)//we start i=2 coz we already printed 2 values
+		{
+			c=a+b;
+			System.out.print(c +" ");
+			a=b;
+			b=c;
+		}
+	}
+	
+//11
+	void primenum()
+	{
+		int num=78, count=0;
+		System.out.println("no.= " +num);
+	
+		for(int i=1;i<=num; i++)
+		{
+			if(num%i==0)
+				count++;
+		}
+		
+		if(count==2)
+			System.out.println("prime no.");
+		else 
+			System.out.println("not prime no.");	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		PRACTICE pr=new PRACTICE();
+		pr.swap1();				System.out.println('\n');
+		pr.swap2();				System.out.println('\n');
+		pr.swap3();				System.out.println('\n');
+		pr.swap4();				System.out.println('\n');
+		pr.swap5();				System.out.println('\n');
+		pr.reverse1();			System.out.println('\n');
+		pr.reverse2();			System.out.println('\n');
+		pr.reverse3();			System.out.println('\n');
+		pr.reverseString1();	System.out.println('\n');
+		pr.reverseString2();	System.out.println('\n');
+		pr.reverseString3();	System.out.println('\n');
+		pr.palindrome();		System.out.println('\n');
+		pr.palindromestring();	System.out.println('\n');
+		pr.countdigits();		System.out.println('\n');
+		pr.count_even_odd();	System.out.println('\n');
+		pr.find_even_odd();		System.out.println('\n');
+		pr.sum();				System.out.println('\n');	
+		pr.largest1();			System.out.println('\n');	
+		pr.largest2();			System.out.println('\n');	
+		pr.fibonacci();			System.out.println('\n');	
+		pr.primenum();			System.out.println('\n');	
+
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
